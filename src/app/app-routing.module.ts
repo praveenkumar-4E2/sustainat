@@ -9,7 +9,7 @@ import { ContentComponent } from './modules/content/content.component';
 const routes: Routes = [
   
     {
-      path: '', redirectTo: '/content', pathMatch: 'full'
+      path: '', redirectTo: '/content/home', pathMatch: 'full'
     },
    
     {
