@@ -1,0 +1,22 @@
+<nav>
+    <label class="logo">Sustainat</label>
+    <button class="menuicon"  [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <ul >
+        <li><a routerLink="/content/home" routerLinkActive="true">Home</a></li>
+        <li> <a routerLink="content/products">Products</a></li>
+        <li> <a routerLink="content/services">Services</a></li>
+        <li> <a routerLink="content/about">About-us</a></li>
+    </ul>
+    
+<mat-menu #menu="matMenu" class="menu">
+  <button mat-menu-item routerLink="/content/home">Home</button>
+  <button mat-menu-item routerLink="content/products">Products</button>
+  <button mat-menu-item routerLink="content/services">Services</button>
+  <button mat-menu-item routerLink="content/about">About</button>
+</mat-menu>
+
+
+
+</nav>

@@ -1,0 +1,40 @@
+.row{
+    background-color:black;
+    color:white;
+    text-align:center;
+
+}
+
+h1{
+    font-size:1.5rem;
+    margin-bottom: 0;
+}
+h3{
+    margin-bottom: 0;
+}
+p{
+    font-size:.7rem;
+    margin-bottom: 0;
+}
+.col1 ,.col2 ,.col3,.col4 {
+    padding: 1rem auto;
+
+}
+address{
+    font-size :0.6em;
+}
+@media screen and (min-width:425px){
+    .row{
+        display:flex;
+        justify-content:space-between;
+        
+        flex-grow: 1;
+    }
+    .col1 ,.col2 ,.col3,.col4 {
+        
+        flex-basis: 25%;
+    }
+    address{
+        font-size :0.6em;
+    }
+}
