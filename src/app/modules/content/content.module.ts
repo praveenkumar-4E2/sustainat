@@ -6,6 +6,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { RouterModule } from '@angular/router';
 import { ContentComponent } from './content.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SustainabilityComponent } from './components/sustainability/sustainability.component';
 
 
 
@@ -16,7 +18,9 @@ import { ContentComponent } from './content.component';
     ProductsComponent,
     AboutComponent,
     ServicesComponent,
-    ContentComponent
+    ContentComponent,
+    ContactComponent,
+    SustainabilityComponent
   ],
   imports: [
     CommonModule,

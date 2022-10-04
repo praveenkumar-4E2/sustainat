@@ -1,0 +1,13 @@
+.container{
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+.image1 img{
+    width: 100%;
+}
+.note{
+    position: absolute;
+    top:20%;
+    left:20%;
+}

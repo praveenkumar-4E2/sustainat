@@ -13,7 +13,8 @@ import { MaterialModule } from './modules/material/material.module';
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,

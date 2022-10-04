@@ -1,3 +1,11 @@
+.r1{
+    text-align: center;
+padding: 3rem;
+}
+.r1 img{
+    width:30%;
+}
+
 .r2{
     text-align: center;
     padding: 3rem;
@@ -11,30 +19,11 @@
 .r2r1c1,.r2r1c2{
     padding: 1rem;
 }
-.r3{
-    margin:1rem;
-    text-align:center;
-}
-.r3 img{
-    width:50%;
-}
-.r4{
-    
-    margin:1rem;
-    padding:3rem  3rem 3rem 5rem;
-}
-.card{
-    box-shadow: 3px -1px 24px 3px rgb(174, 162, 162);
-    
-    padding:3rem;
-    
-}
-.r4r1{
-    width:50%;
-}
 
 @media screen and (max-width:470px) {
-   
+    .r1 img{
+        width:50%;
+    }
     .r2r1{
         display: block;
     }
